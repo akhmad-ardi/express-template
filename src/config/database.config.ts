@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import mongoose from 'mongoose';
-import { logger } from '../utils/Logger';
+import { logger } from '../lib/Logger';
 
 class Database {
   private URI: string;

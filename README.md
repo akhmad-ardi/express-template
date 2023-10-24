@@ -1,32 +1,36 @@
-
 # WELCOME TO MY EXPRESS TEMPLATE
 
-This template is only used to build restful API using node js and express
+This template is only used to build restful API using [NodeJS](https://nodejs.org/id) and [ExpressJS](https://expressjs.com/)
+By default, this project are using [MongoDB](https://mongodb.com/) as database management system.
 
 
+## Build With
 
-## Environment Variables
+- [NodeJS](https://nodejs.org/id)
 
-To run this project, you will need to add the following environment variables to your .env file
+- [Typescript](https://www.typescriptlang.org/)
 
-`DB`
+- [ExpressJS](https://expressjs.com/)
 
-`SECRET_TOKEN`
-
-`PUBLIC_TOKEN`
+- [MongoDB](https://mongodb.com/)
 
 
-### Tech Stack
+## Installation
 
-**Server:** Typescript, Node, Express
+Clone this project and Install dependencies with [npm](https://www.npmjs.com)
+
+```bash
+  npm install
+```
+
+If you want use third party library, you can install as usual
+
+```bash
+  npm i <name-library> [options]
+```
 
 
 ### Authors
 
-- [@Akhmad](https://github.com/akhmad-ardi)
-
-
-### License
-
-[ISC](https://choosealicense.com/licenses/isc/)
+- [@akhmad-ardi](https://github.com/akhmad-ardi)
 

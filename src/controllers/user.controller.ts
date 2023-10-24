@@ -12,7 +12,7 @@ import ValidationError from '../validation/ValidationError';
 import UserModel from '../models/User.model';
 
 // logger
-import { logger } from '../utils/Logger';
+import { logger } from '../lib/Logger';
 import ms from 'ms';
 
 class UserController {

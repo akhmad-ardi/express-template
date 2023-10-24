@@ -9,7 +9,7 @@ import db from './config/database.config';
 import User from './routes/user.route';
 
 // utils
-import { logger } from './utils/Logger';
+import { logger } from './lib/Logger';
 
 class App {
   private app: Application;
@@ -21,7 +21,7 @@ class App {
   }
 
   private config(): void {
-    // Konfigurasi middleware dan pengaturan aplikasi lainnya
+    // Configure middleware and set other app
     this.app.use(bodyParser.urlencoded({ extended: false }));
     this.app.use(bodyParser.json());
 
@@ -37,8 +37,7 @@ class App {
   }
 
   private routes(): void {
-    // Definisikan rute untuk aplikasi Anda di sini
-
+    // Define routes for you app
     this.app.use('/api/user', User.routes);
   }
 
