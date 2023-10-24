@@ -1,7 +1,6 @@
 # WELCOME TO MY EXPRESS TEMPLATE
 
-This template is only used to build restful API using [NodeJS](https://nodejs.org/id) and [ExpressJS](https://expressjs.com/)
-By default, this project are using [MongoDB](https://mongodb.com/) as database management system.
+This template is only used to build restful API using [NodeJS](https://nodejs.org/id) and [ExpressJS](https://expressjs.com/). By default, this project are using [MongoDB](https://mongodb.com/) as database management system.
 
 
 ## Build With
